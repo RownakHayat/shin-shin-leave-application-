@@ -1,0 +1,168 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+body{
+    font-weight: bold;
+    padding-bottom: 5%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4%;
+}
+.logo img{
+    width: 35%;
+}
+.address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.address td{
+    font-weight: bold;
+    font-size: 18px;
+}
+table.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+table.title th h2{
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-bottom: 2px solid black;
+
+
+}
+table.title tr {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+} 
+table.title td{
+   
+    display: flex;
+    justify-content: flex-end;
+    
+}
+table.title tr.date-time{
+    display: flex;
+    justify-content: space-around;
+
+}
+table.title td p{
+    font-size: larger;
+    font-weight: bold;
+    display: flex;
+    margin-right: -21rem;
+}
+ .date-time-container {
+    margin: 0px 13rem 0px 13rem;
+    text-wrap: nowrap;
+}
+table.data-time {
+    display: flex;
+    justify-content: flex-start;
+    font-size: large;
+} 
+.date-time td.form-to{
+    gap: 10px;
+    display: flex;
+}
+.leave-type-table{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(99, 94, 94);
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2%;
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #5f5b5b;
+    padding: 8px;
+  }
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+  }
+  #address-table{
+    margin-top: 2%;
+  }
+  #address-table #contact{
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 2%;
+  }
+  #address-table2 #contact2{
+    width: 50%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 2%;
+  }
+ #blank #field{
+    width: 100%;
+    border-bottom: 1px solid black;
+ }
+ #address-table3 #contact3{
+    width: 40%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 2%;
+  }
+ #address-table3 #contact4{
+    width: 30%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 2%;
+  }
+ #address-table3 #contact5{
+    width: 30%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    padding-top: 2%;
+  }
+  #aproval-tbl{
+    border: 1px solid black;
+    width: 100%;
+    margin-top: 2%;
+  }
+ .ft-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+  #aproval-tbl .footer-title{
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+  }
+
+  .sign-div{
+    margin: 0rem 3rem 0rem 3rem;
+  }
+  .sign-tbl{
+    display: flex;
+    justify-content: space-between;
+  }
+  .ch-sign, .hr-sign, .exc-sign{
+    box-sizing: border-box;
+    border-top: 1px solid black;
+  }
+  .mem-text{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
